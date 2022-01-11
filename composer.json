@@ -1,0 +1,19 @@
+{
+    "name": "ropehapi/software-dm",
+    "description": "Plataforma Web para administração do capítulo",
+    "authors": [
+        {
+            "name": "Pedro Monteiro Yoshimura",
+            "email": "ropehapi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "v6.5.0",
+        "monolog/monolog": "2.3.2"
+    }
+}
